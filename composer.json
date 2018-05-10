@@ -1,8 +1,8 @@
 {
-    "name": "symfony/framework-standard-edition",
+    "name": "biberltd/symfonyrest",
     "license": "MIT",
     "type": "project",
-    "description": "The \"Symfony Standard Edition\" distribution",
+    "description": "Symfony Standard Edition Bodev Rest Framework",
     "autoload": {
         "psr-4": {
             "AppBundle\\": "src/AppBundle"
