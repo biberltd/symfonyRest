@@ -1,0 +1,33 @@
+"401.0000":
+  tr: "Gerçekleştirmek istediğiniz işlem için yetkiniz bulunmamaktadır. Lütfen sistem yöneticiniz ile irtibata geçin."
+  en: "You don't have enough permission to execute this action. Please contact with your system administrator for further information."
+"401.0001":
+  tr: "Oturum süreniz doldu. Lütfen yeniden giriş yaptıktan sonra işleminizi tekrarlayın."
+  en: "Your session has been expired. Please log back in and try your action later."
+"401.0002":
+  tr: "Kullanıcı adı veya parolanız hatalı. Lütfen bilgilerinizi kontrol edip, işlemi tekrar deneyin."
+  en: "Username or password is incorrect. Please check your informations and try again."
+"404.0000":
+  tr: "Hatalı bir bağlantı noktasına erişmeye çalışıyorsunuz. Lütfen dokümantasyona uygun olarak uygulamanızı düzenleyin."
+  en: "You are trying to access an inexisting endpoint. Please read the API documentation carefully, make necesary changes and retry."
+"404.0001":
+  tr: "Bu işlem bakıma alınmış ve geçici olarak erişim dışı bırakılmıştır. Lütfen işleminizi 24 saat bekledikten sonra tekrar deneyin veya sistem yöneticisi ile irtibata geçin."
+  en: "This endpoint is under maintenance. Please wait approximately 24 hours and try again later."
+"404.0002":
+  tr: "Güncellemek istediğiniz kayıt veri tabanında bulunmamaktadır veya silinmiştir."
+  en: "The record that you want to update has either been deleted or do not exist in our database."
+"404.0003":
+  tr: "Görüntülemek istediğiniz kayıt veri tabanında bulunmamaktadır veya silinmiştir."
+  en: "The record that you want to view has either been deleted or do not exist in our database."
+"404.0404":
+  tr: "Aradığınız kriterlere uygun kayıt bulunamamıştır."
+  en: "There is no record found matching your search criteria."
+"405.0000":
+  tr: "İstem metodunuz hatalıdır. Lütfen uygulama geliştiriciniz ile iletişime geçin."
+  en: "Your request methos is not valid/correct. Please contact with your developer."
+"500.0000":
+  tr: "Sistemde bilinmeyen bir hata meydana geldi. Lütfen bir süre bekleyin ve işleminizi tekrar deneyin."
+  en: "Unkonwn server error occured. Please try again later."
+
+"No API key found!":
+  tr: "Api key bulunamadı"

@@ -1,0 +1,28 @@
+# To get started with security, check out the documentation:
+# https://symfony.com/doc/current/security.html
+security:
+
+    # https://symfony.com/doc/current/security.html#b-configuring-how-users-are-loaded
+    providers:
+        api_key_user_provider:
+            id: security.apikey_user_provider
+
+
+    firewalls:
+        # disables authentication for assets and the profiler, adapt it according to your needs
+        dev:
+            pattern: ^/(_(profiler|wdt)|css|images|js)/
+            security: false
+
+
+        public:
+           pattern: ^/(login|user/password/reminder|user/password/reset)
+           security: false
+
+        main:
+            pattern: ^/
+            stateless: true
+            simple_preauth:
+                authenticator: security.apikey_authenticator
+            provider: api_key_user_provider
+
